@@ -1,0 +1,12 @@
+C:\Users\Usuario\source\repos\DesignPatterns\Tools\bin\Debug\net7.0\Tools.deps.json
+C:\Users\Usuario\source\repos\DesignPatterns\Tools\bin\Debug\net7.0\Tools.dll
+C:\Users\Usuario\source\repos\DesignPatterns\Tools\bin\Debug\net7.0\Tools.pdb
+C:\Users\Usuario\source\repos\DesignPatterns\Tools\obj\Debug\net7.0\Tools.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\DesignPatterns\Tools\obj\Debug\net7.0\Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\DesignPatterns\Tools\obj\Debug\net7.0\Tools.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\DesignPatterns\Tools\obj\Debug\net7.0\Tools.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\DesignPatterns\Tools\obj\Debug\net7.0\Tools.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\DesignPatterns\Tools\obj\Debug\net7.0\Tools.dll
+C:\Users\Usuario\source\repos\DesignPatterns\Tools\obj\Debug\net7.0\refint\Tools.dll
+C:\Users\Usuario\source\repos\DesignPatterns\Tools\obj\Debug\net7.0\Tools.pdb
+C:\Users\Usuario\source\repos\DesignPatterns\Tools\obj\Debug\net7.0\ref\Tools.dll
