@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\DesignPatterns\DesignPatterns.Repository\bin\Debug\net7.0\DesignPatterns.Repository.deps.json
+C:\Users\Usuario\source\repos\DesignPatterns\DesignPatterns.Repository\bin\Debug\net7.0\DesignPatterns.Repository.dll
+C:\Users\Usuario\source\repos\DesignPatterns\DesignPatterns.Repository\bin\Debug\net7.0\DesignPatterns.Repository.pdb
+C:\Users\Usuario\source\repos\DesignPatterns\DesignPatterns.Repository\obj\Debug\net7.0\DesignPatterns.Repository.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\DesignPatterns\DesignPatterns.Repository\obj\Debug\net7.0\DesignPatterns.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\DesignPatterns\DesignPatterns.Repository\obj\Debug\net7.0\DesignPatterns.Repository.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\DesignPatterns\DesignPatterns.Repository\obj\Debug\net7.0\DesignPatterns.Repository.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\DesignPatterns\DesignPatterns.Repository\obj\Debug\net7.0\DesignPatterns.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\DesignPatterns\DesignPatterns.Repository\obj\Debug\net7.0\DesignPatterns.Repository.dll
+C:\Users\Usuario\source\repos\DesignPatterns\DesignPatterns.Repository\obj\Debug\net7.0\refint\DesignPatterns.Repository.dll
+C:\Users\Usuario\source\repos\DesignPatterns\DesignPatterns.Repository\obj\Debug\net7.0\DesignPatterns.Repository.pdb
+C:\Users\Usuario\source\repos\DesignPatterns\DesignPatterns.Repository\obj\Debug\net7.0\ref\DesignPatterns.Repository.dll
+C:\Users\Usuario\source\repos\DesignPatterns\DesignPatterns.Repository\bin\Debug\net7.0\DesignPatterns.Models.dll
+C:\Users\Usuario\source\repos\DesignPatterns\DesignPatterns.Repository\bin\Debug\net7.0\DesignPatterns.Models.pdb
+C:\Users\Usuario\source\repos\DesignPatterns\DesignPatterns.Repository\obj\Debug\net7.0\DesignPatterns.Repository.csproj.CopyComplete
