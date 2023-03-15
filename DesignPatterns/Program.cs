@@ -5,6 +5,7 @@ using DesignPatterns.DependencyInjection;
 using DesignPatterns.Models;
 using DesignPatterns.RepositoryPattern;
 using DesignPatterns.Singleton;
+using DesignPatterns.UnitOfWorkpattern;
 using Beer = DesignPatterns.Models.Beer;
 
 Console.WriteLine("Hello, World!");
@@ -46,33 +47,57 @@ Console.WriteLine("Hello, World!");
 
 //Repository Pattern
 
+//using(var context = new DesignPatternsDbContext())
+//{
+//    var br = new Repository<Beer>(context); //Not BeerRepository
+//    var beer = new Beer()
+//    {
+//        Name = "Brahma",
+//        Style = "Unico"
+//    };
+//    br.Add(beer);
+//    br.Save();
+
+//    foreach(var b in br.Get())
+//    {
+//        Console.WriteLine(b.Name);
+//    }
+
+//    br.Delete(beer.BeerId - 1);
+
+//    var brr = new Repository<Brand>(context);
+//    var brand = new Brand()
+//    {
+//        Name = "Brahma",
+//    };
+//    brr.Add(brand);
+//    brr.Save();
+
+//    foreach (var b in brr.Get())
+//    {
+//        Console.WriteLine(b.Name);
+//    }
+//}
+
 using(var context = new DesignPatternsDbContext())
 {
-    var br = new Repository<Beer>(context); //Not BeerRepository
+    var uof = new UnitOfWork(context);
+
+    var beers = uof.Beers;
+
+    var brands = uof.Brands;
+
     var beer = new Beer()
     {
-        Name = "Brahma",
-        Style = "Unico"
+        Name = "Quilmes",
+        Style = "Crystal"
     };
-    br.Add(beer);
-    br.Save();
 
-    foreach(var b in br.Get())
-    {
-        Console.WriteLine(b.Name);
-    }
+    beers.Add(beer);
 
-    br.Delete(beer.BeerId - 1);
+    uof.Save();
 
-    var brr = new Repository<Brand>(context);
-    var brand = new Brand()
-    {
-        Name = "Brahma",
-    };
-    brr.Add(brand);
-    brr.Save();
-
-    foreach (var b in brr.Get())
+    foreach(var b in beers.Get())
     {
         Console.WriteLine(b.Name);
     }
