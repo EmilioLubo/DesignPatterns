@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Usuario\source\repos\DesignPatterns\DesignPatternsAsp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Usuario/source/repos/DesignPatterns/DesignPatternsAsp/Views/Beer/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVlclxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/source/repos/DesignPatterns/DesignPatternsAsp/Views/Beer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Usuario/source/repos/DesignPatterns/DesignPatternsAsp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

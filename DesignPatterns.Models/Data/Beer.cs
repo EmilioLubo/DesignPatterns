@@ -5,9 +5,13 @@ namespace DesignPatterns.Models.Data;
 
 public partial class Beer
 {
-    public int BeerId { get; set; }
+    public Guid BeerId { get; set; }
 
     public string Name { get; set; } = null!;
 
     public string Style { get; set; } = null!;
+
+    public Guid BrandId { get; set; }
+
+    public virtual Brand Brand { get; set; } = null!;
 }
