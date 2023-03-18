@@ -5,6 +5,7 @@ using DesignPatterns.DependencyInjection;
 using DesignPatterns.Models;
 using DesignPatterns.RepositoryPattern;
 using DesignPatterns.Singleton;
+using DesignPatterns.StrategyPattern;
 using DesignPatterns.UnitOfWorkpattern;
 using Beer = DesignPatterns.Models.Beer;
 
@@ -79,26 +80,35 @@ Console.WriteLine("Hello, World!");
 //    }
 //}
 
-using(var context = new DesignPatternsDbContext())
-{
-    var uof = new UnitOfWork(context);
+// ------------------- Unit Of Work --------------
 
-    var beers = uof.Beers;
+//using(var context = new DesignPatternsDbContext())
+//{
+//    var uof = new UnitOfWork(context);
 
-    var brands = uof.Brands;
+//    var beers = uof.Beers;
 
-    var beer = new Beer()
-    {
-        Name = "Quilmes",
-        Style = "Crystal"
-    };
+//    var brands = uof.Brands;
 
-    beers.Add(beer);
+//    var beer = new Beer()
+//    {
+//        Name = "Quilmes",
+//        Style = "Crystal"
+//    };
 
-    uof.Save();
+//    beers.Add(beer);
 
-    foreach(var b in beers.Get())
-    {
-        Console.WriteLine(b.Name);
-    }
-}
+//    uof.Save();
+
+//    foreach(var b in beers.Get())
+//    {
+//        Console.WriteLine(b.Name);
+//    }
+//}
+
+// ------------ Strategy --------------
+
+var context = new Context(new CarStrategy());
+context.Run();
+context.Strategy = new MotoStrategy();
+context.Run();
