@@ -1,10 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 
+using DesignPatterns.BuilderPattern;
 using DesignPatterns.DependencyInjection;
 using DesignPatterns.Models;
 using DesignPatterns.RepositoryPattern;
 using DesignPatterns.Singleton;
+using DesignPatterns.StatePattern;
 using DesignPatterns.StrategyPattern;
 using DesignPatterns.UnitOfWorkpattern;
 using Beer = DesignPatterns.Models.Beer;
@@ -108,7 +110,42 @@ Console.WriteLine("Hello, World!");
 
 // ------------ Strategy --------------
 
-var context = new Context(new CarStrategy());
-context.Run();
-context.Strategy = new MotoStrategy();
-context.Run();
+//var context = new Context(new CarStrategy());
+//context.Run();
+//context.Strategy = new MotoStrategy();
+//context.Run();
+
+//------Builder---------
+
+
+//var builder = new TragoBuilder();
+
+//var barman = new BarmanDir(builder);
+
+//barman.PrepareJaggerAndRedbull();
+
+//var trago = builder.GetTrago();
+
+//Console.WriteLine(trago.Result);
+
+
+//------------State-------------
+
+var cc = new CustomerContext();
+
+Console.WriteLine(cc.GetState());
+
+cc.Request(100);
+Console.WriteLine(cc.GetState());
+
+cc.Request(50);
+Console.WriteLine(cc.GetState());
+
+cc.Request(100);
+Console.WriteLine(cc.GetState());
+
+cc.Request(50);
+Console.WriteLine(cc.GetState());
+
+cc.Request(1);
+Console.WriteLine(cc.GetState());
